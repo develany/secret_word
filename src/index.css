@@ -13,19 +13,19 @@ body {
     background: linear-gradient(
         180deg,
         #75DB4E 0%,
-        #0000 100%
+        #00000034 100%
     );
     color: #fff;
 }
 button {
     background: #75DB4E;
     color: #fff;
-    padding: 0 45px;
+    padding: 2px 40px;
     border: 2px solid #fff;
     border-radius: 25px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.6em;
     cursor: pointer;
     transform: 0.4s;
 }
