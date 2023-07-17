@@ -82,7 +82,7 @@ function App() {
     useEffect (() => {
       const uniqueLetters = [...new Set(letters)]// new Set() gera um novo array com elementos únicos
       
-      if(guessedLetters.length === uniqueLetters.length){
+      if(guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name){
         setScore((actualScore) => actualScore +=100)
         startGame();
       }
